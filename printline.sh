@@ -54,7 +54,7 @@ animate() {
 	printf "\b"
 }
 
-concat() {
+parseLine() {
 	c=0
 	for token in "$@"; do
 		if [ $c -eq 0 ]; then
@@ -106,7 +106,7 @@ printline() {
 	done
 }
 
-concat $@
+parseLine $@
 printline
 
 if [ $doLineBreak == "1" ] 
