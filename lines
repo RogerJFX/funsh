@@ -1,0 +1,59 @@
+0		1		0 	0	ároger@crazything:à~â$
+0.09	0.1		1 	0.1	uname
+0		0		1 	0	Linux
+0		1		0 	0	ároger@crazything:à~â$
+0.09	0.05	1 	0.5	ulimit -l
+0		0		1 	0	unlimited
+0		1		0 	0	ároger@crazything:à~â$
+0.09	0.12	1 	0.4	cd rf
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.09	0.12	1 	0	ls -la
+0		0		1 	0	drwxrwxr-x 2 roger roger 4096 Sep 21 17:58 .
+0		0		1 	0	drwxr-xr-x 8 roger roger 4096 Sep 21 17:58 ..
+0		0		1 	0	-rw-r--r-- 1 roger audio 1715 Sep 22 20:04 lines
+0		0		1 	0	-rwxr-xr-- 1 roger audio _160 Sep 21 18:25 print.awk
+0		0		1 	0	-rwxr-xr-- 1 roger audio 1382 Sep 21 17:52 printline.sh
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.09	0.2		1 	0.3	cat print.awk
+0		0		1 	0	\#!/usr/bin/awk -f
+0		0		1 	0	BEGIN {
+0		0		1 	0	____ print \"AWK: howdy, lets do the thrill\"
+0		0		1 	0	}
+0		0		1 	0	{
+0		0		1 	0	____ command=\"bash ./printline.sh \"\$0
+0		0		1 	0	____ system\(command\)
+0		0		1 	0	}
+0		0		1 	0	END {
+0		0		1 	0	____ print \"AWK: thrill is done\"
+0		0		1 	0	}
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.09	0.2		1 	0.1	WTF
+0		0		1 	0	WTF: Command not found
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.09	0.2		1 	0.6	Are you stupid?
+0		0		1 	0	Sorry?
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.09	0.1		1 	0.9	Who\'s your daddy?
+0.09	1		0 	0	_\>
+0.09	0.4		1 	0	\'
+0		0		1 	0	Whos your daddy?
+0		0		1 	0	: Command not found
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.09	0.2 	1 	0.7	What is the meaning of life?
+0		0.1		1	0.4	_animate_ 42
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.15	0.2 	1	0.6	Sure?
+0		0		1 	0	Sure?: Command not found
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.15	0.2 	1	0.6	cd /pub
+0		0		1 	0	Permission denied
+0		1		0 	0	ároger@crazything:à~/rfâ$
+0.15	0.2 	1	0.6	su
+0		0 		0	0	Password:
+0		0		1 	2	_
+0		1		0 	0	ôrootá@crazything:à~/rfâ$
+0.09	0.2 	1	0.6	cd /pub
+0		1		0 	0	ôrootá@crazything:à/pubâ$
+0.09	0.2 	1	0.6	more beer
+0		0		1 	0	Good idea, cheers!
+0		1		1	0	ôrootá@crazything:à/pubâ$
